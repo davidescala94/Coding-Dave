@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    background-image: url(./background.jpg);
+    background-size: cover;
+}
+
+.box {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(0 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.content {
+    padding: 50px;
+}
+
+header, nav {
+    text-align: center;
+}
+
+#logo {
+    width: 200px;
+}
+
+header > h3 {
+    color: #00dd00;
+    font-family: 'Comfortaa', cursive;
+}
+
+.navigation-bar {
+    background-color: #00dd00;
+}
+
+.button {
+    padding: 8px;
+}
+
+div.button > button {
+    font-size: 12px;
+}
+
+main {
+    padding-top: 30px;
+}
+
+.vehicle {
+    margin-bottom: 15px;
+}
+
+.name-vehicle {
+    display: inline-block;
+}
+
+.via, .carica {
+    display: block;
+    font-size: 11px;
+}
+
+.name-vehicle, .via, .carica {
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    margin: 4px;
+}
+
+#batteria1 {
+    width: 300px;
+    height: 25px;
+    background: #00dd00;
+    border-radius: 5px;
+}
+
+#batteria2 {
+    width: 180px;
+    height: 25px;
+    background: orange;
+    border-radius: 5px;
+}
+
+#batteria3 {
+    width: 100px;
+    height: 25px;
+    background: red;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 13px;
+    color: white;
+}
